@@ -8,3 +8,15 @@
 int_func = lambda string: string.title()
 
 print(int_func("TesTIng test testik ttt"))
+
+# Решение с использование функции из 6 задания в цикле:
+
+
+def int_func_06(string_06):
+    output = ''
+    for word in string_06.split(' '):
+        output += ''.join(word[0].upper() + word[1:].lower()) + ' '
+    return output
+
+
+print(int_func_06("TesTIng test tesTik ttt"))
