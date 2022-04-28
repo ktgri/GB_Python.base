@@ -1,0 +1,8 @@
+
+
+Hello!
+My name is Kate Gri
+
+testing 05.2
+i love Python <3
+подсчет строк и слов
