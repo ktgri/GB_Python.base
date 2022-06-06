@@ -80,6 +80,3 @@ print(d.day)
 print(d.month)
 print(d.year)
 print(d.leap)
-
-print(Date.dd_mm_yyyy('05-11-1666'))
-Date.validation_date('30-02-2020')

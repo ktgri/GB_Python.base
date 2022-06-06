@@ -13,7 +13,7 @@ b = int(input('Введите делитель: '))
 
 try:
     if not b:
-        raise ZeroError("Вы пытаетесь разделить на ноль!")
+        raise ZeroError('Вы пытаетесь разделить на ноль!')
     c = a / b
 except ZeroError as error:
     c = 0
